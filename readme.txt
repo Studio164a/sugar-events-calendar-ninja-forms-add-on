@@ -1,56 +1,37 @@
-=== All-in-one WPML Crowdfunding Campaigns ===
+=== Sugar Events Calendar - Ninja Forms Add-on ===
 Contributors: ericdaams
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=paypal%40164a%2ecom
 Author URI: http://164a.com
-Plugin URI: https://github.com/Studio164a/crowdfunding-wpml
-Tags: wpml, multilingual, language, crowdfunding, crowd fund, appthemer, crowd funding, crowdfund
-Requires at least: 3.6
-Tested up to: 3.7
-Stable Tag: 1.0.2
+Plugin URI: https://github.com/Studio164a/sugar-events-calendar-ninja-forms-add-on
+Tags: Sugar Events Calendar, event registration, ninja forms, event ticketing, sugar events calendar registration, event calendar
+Requires at least: 3.7
+Tested up to: 3.8
+Stable Tag: 1.0.0
 License: GPLv2 or later
 
-Unify WPML translation versions of a crowdfunding campaign so that contributions to each language version count towards the main campaign.
+[Sugar Events Calendar](http://pippinsplugins.com/sugar-event-calendar?ref=3769) is an Event Calendar plugin for Wordpress that allows you to easily manage events on your website.
+
+This add-on to Sugar Events Calendar allows you to add a Ninja Forms form to your event pages, so that you can easily add registration forms. If you have one of Ninja Forms' payment gateway add-ons installed ([Stripe](http://ninjaforms.com/downloads/stripe/?ref=19) or [Paypal Express](http://ninjaforms.com/downloads/paypal-express/?ref=19)), you can even take payment for event registrations. 
+
+This plugin requires [Sugar Events Calendar](http://pippinsplugins.com/sugar-event-calendar?ref=3769) and [Ninja Forms](http://ninjaforms.com/?ref=19).
 
 == Description ==
 
-If you are running a multi-lingual crowdfunding website and you want a single campaign to have multiple language versions, this is the plugin you need. It works alongside WPML and Appthemer Crowdfunding, ensuring that when you have created translations of your campaign, contributions to each language-specific version of the campaign count towards the same campaign. 
-
-This plugin requires zero configuration. Just install it and you're done.
+This plugin does not require any configuration. Once you have installed it, you will be able to add a Ninja Form when editing your event.
 
 **Requirements**
 
-* Appthemer Crowdfunding 1.7+
-* WPML 2.9+
-* Easy Digital Downloads 1.8+
+* Sugar Events Calendar
+* Ninja Forms
 * Wordpress 3.7+ (will probably work with earlier versions, but support will not be provided for older installations)
-
-**Compatible Themes**
-
-While this theme should work with any theme created with Appthemer Crowdfunding, we have personally tested it with our premium crowdfunding theme:
-
-* [Franklin Crowdfunding Theme](http://themeforest.net/item/franklin-wordpress-crowdfunding-theme/5063650?ref=Studio164a) — A stylish crowdfunding theme for community-oriented crowdfunding sites like Kickstarter or Indiegogo, or for self-hosted single-campaign websites. 
 
 == Installation == 
 
-1. Upload All-in-one WPML Crowdfunding Campaigns to the `/wp-content/plugins/` directory
+1. Upload Sugar Events Calendar - Ninja Forms Add-on to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-
-== Frequently Asked Questions ==
-
-**Can people create multilingual campaigns via the frontend submission form with this plugin?**
-
-No, not currently. At this stage, the only way for people to create multi-lingual campaigns is via the Wordpress dashboard. If there is sufficient demand for this, we may look at creating a PRO version of this plugin that adds this ability.
 
 == Changelog ==
 
-= 1.0.2 - 19 November, 2013 = 
-
-* Resolved a bug that caused the plugin to not work correctly with non-duplicate translations of a campaign.
-
-= 1.0.1 — 17 November, 2013 = 
-
-* Fixes a bug that caused the plugin to not properly instantiate itself.
-
-= 1.0.0 - 16 November, 2013 = 
+= 1.0.0 - 12 April, 2014 = 
 
 * Initial release
